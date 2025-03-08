@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  nav {
+    padding: 0 20px;
+  }
+  .first {
+    /* display: none; */
+  }
+  .header {
+    padding: 10px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .header-img {
+    /* background: red; */
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    /* text-align: center; */
+  }
+  .header-img img {
+    /* width: 80%; */
+    width: 200px;
+    margin-left: 0;
+  }
+  .btn-contact {
+    display: none;
+  }
+}
