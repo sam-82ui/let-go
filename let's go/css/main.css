@@ -31,12 +31,11 @@ nav {
 .header2 {
   width: 100%;
   min-height: 500px;
-  background: rgb(0, 0, 0);
   position: relative;
 }
 .first {
   position: absolute;
-  background: rgb(131, 122, 122);
+  background: rgb(185, 173, 173);
   inset: 0;
   clip-path: polygon(0 1%, 100% 0, 100% 43%, 0 96%);
 }
@@ -85,6 +84,123 @@ nav {
   align-items: center;
   margin-left: 200px;
 }
-.nav-link :hover {
-  box-shadow: #222;
+.grid-card {
+ margin-bottom: 50px;
+ padding: 70px;
 }
+.grid-card .grid-1 {
+  margin-bottom: 0 50px;
+  padding: 0 200px;
+}
+.grid-card .grid-1 img {
+  /* margin-bottom: 50px; */
+  padding: 20px;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+  margin: 5px;
+  box-shadow: black;
+}
+.grid-card .grid-1 :hover {
+  transform: scale(0.9);
+}
+.grid-1 img{
+  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.5);
+}
+/* servises-section */
+div .text{
+  background-color: aliceblue;
+}
+.text {
+  width: 100%;
+  height: 100%;
+}
+.text-container {
+  width: 100%;
+}
+.text-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 55px;
+  font-weight: bold;
+}
+.text-container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.container {
+  gap: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-template-rows: 1fr 1fr;
+  padding: 25px;
+}
+ .card {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.1);
+  padding: 0 50px;
+  width: 500px; 
+  text-align: left;
+}
+.icon-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.icon-container.yellow {
+  background-color: #ff0; 
+}
+.icon-container.green {
+  background-color: #0f0; 
+}
+.icon-container img {
+  max-width: 80%;
+  max-height: 80%;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+p {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+.container :hover {
+  transform: scale(0.9);
+}
+/* servises-section */
+/* About-Us */
+#about {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#about img {
+  padding: 50px;
+  object-fit: cover;
+}
+#about div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about p {
+  font-size: 15px;
+  padding: 10px;
+  backdrop-filter: blur(5px);
+}
+/* About-Us */
