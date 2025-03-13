@@ -140,7 +140,6 @@ div .text{
   padding: 25px;
 }
  .card {
-  background-color: #f5f5f5;
   border-radius: 8px;
   box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.1);
   padding: 0 50px;
@@ -204,3 +203,36 @@ p {
   backdrop-filter: blur(5px);
 }
 /* About-Us */
+/* work-section */
+section {
+  width: 100%;
+  padding: 30px 70px;
+}
+.section-title {
+  font-size: 2.2rem;
+  text-align: center;
+}
+.work-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 30px;
+}
+.work-menu-card {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.work-menu-card h3 {
+  font-size: 1rem;
+}
+.work-menu-card img {
+  object-fit: cover;
+}
+.work-info {
+  padding: 10px;
+}
+/* work section */
